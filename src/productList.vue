@@ -6,7 +6,6 @@
         </product-list-item>
     </ul>
 </div>
-   
 </template>
 
 <script>

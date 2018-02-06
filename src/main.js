@@ -4,6 +4,7 @@ import App from './App.vue'
 
 import ProductList from './productList.vue'
 import Product from './product.vue'
+import Movies from './movies/movies.vue'
 
 Vue.use(VueRouter);
 const routes=[
@@ -17,6 +18,10 @@ const routes=[
   {
     path:'/product/:id',
     component:Product
+  },
+  {
+    path:'/movies',
+    component:Movies
   }
 ]
 
